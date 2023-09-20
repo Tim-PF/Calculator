@@ -1,0 +1,73 @@
+body {
+    display:flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    background-color:brown;
+    background-image:url("images/jon-moore-5fIoyoKlz7A-unsplash.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+.main-container {
+    display:flex;
+    flex-direction: column;
+    height: 580px;
+    width: 400px;
+    background-color: #6D747E;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.display-container {
+    flex: 2;
+    background-color: #EEEEEE;
+    border: 1px solid black;
+    margin:15px 0px;
+    border-radius: 10px;
+}
+
+.clear-delete-button-container {
+    display:flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: space-between;
+}
+
+.numbers-container{
+    margin-top: 10px;
+    flex:4;
+    display:flex;
+    align-items: space-between;
+    flex-wrap: wrap;
+}
+
+
+#clear-button {
+    background-color: rebeccapurple;
+    flex:1;
+    margin-right: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#delete-button {
+    background-color: greenyellow;
+    flex:1;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.numbers-button {
+    flex-basis: 24.5%;
+    margin: 2px 0px 2px 2px;
+    border:3px solid black;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+    
+}
